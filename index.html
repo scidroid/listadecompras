@@ -1,42 +1,71 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="es">
 
     <head>
-        <title>Página web en construcción</title>
-        <meta property="og:title" content="Pagina web en construcción">
-        <meta property="og:description" content="Pagina web hecha con HTML y CSS con ayuda del curso de HTML y CSS de Soy Dalto.">
-        <meta property="og:url" content="https://test.scidroid.live/" />
-        <meta property="og:image" content="https://test.scidroid.live/assets/img/avatar.jpg">
-        <link rel="icon" type="image/jpg" href="assets/img/avatar.jpg" alt="Favicon, avatar">
-        <meta name="keywords" content="180$, pagina web, web, pagina, colombia, youtube">
-        <meta name="description" content="Pagina web de prueba que pone en practica el curso de HTML de Soy Dalto."> 
-        <meta name="author" content="scidroid">
-        <meta charset="utf-8">
-        <meta name="robots" content="index">
-        <link rel="stylesheet" type="text/css" href="index.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Pagina web de la lista de compras de la carrera de desarrollo web de platzi.">
+        <meta name="robots" content="index, follow">
+        <meta property="og:title" content="Lista de compras">
+        <meta property="og:image" content="https://listadecompras.scidroid.live/assets/img/avatar.jpg">
+        <meta property="og:description" content="Pagina web hecha con el curso definitivo de HTML y CSS de Platzi.">
+        <title>Lista de compra</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="assets/img/avatar.ico">
+        <link rel="stylesheet" href="assets/css/index.css">
     </head>
 
     <body>
         <header>
-            <h1><a href="https://scidroid.live/" target="_BLANK"><img src="assets/img/avatar.jpg" alt="Avatar" width="50px"></a>Página Web En Construcción</h1>
-            <div class="github">
-                <p><a href="https://github.com/scidroid/test" target="_BLANK"><img src="assets/img/Octicons-mark-github.svg" height="45px"></a></p>
-            </div>
+            <img src="assets/img/avatar.jpg" alt="logo">
+            <h1>Lista de compras de navidad.</h1>
+            <nav>
+                <p><a href="#cena">cena</a></p>
+                <p><a href="#regalos">regalos</a></p>
+                <p><a href="#encuenta">a tener en cuenta</a></p>
+            </nav>
+            <a href="https://github.com/scidroid/listadecompras"><img src="assets/img/github.svg" alt="Github repo"></a>
         </header>
-        <article>
-            <p>Esta pagina web se esta llevando a cabo gracias al trabajo de <a href="https://scidroid.live/" target="_BLANK">Juan Almanza</a>, que por tan solo <strike>400$</strike> 180$*<br> te brinda una pagina web profesional y <i>segura</i> para ti y para tus clientes. si quieres la tuya ve a esta <a href="contratar.html">pagina</a>.<article>
-            <h2>Tutorial para crear tu pagina web facilmente tu mismo sin saber programar</h2>
-            <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/oqGWhR2ddGo?start=98" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            <h2>Audio que se grabo mientras veia el curso</h2>
-            <audio src="assets/audio/WhatsApp Ptt 2020-12-02 at 8.01.13 PM.ogg" controls></audio>
-            <p><cite>* Los Precios se encuentran en Dolares americanos o USD.</cite></p>
-        </article>
+        <main>
+            <section id="cena">
+                <h2>Lista de compras para la cena de navidad</h2>
+                <ul>
+                    <li>2Kg de Carne de Res.</li>
+                    <img src="assets/img/res.jpg" alt="res">
+                    <li>Carbón pal asado.</li>
+                    <img src="assets/img/carbon.jpg" alt="carbon.">
+                    <li>1Kg de arroz.</li>
+                    <img src="assets/img/aroz.jpg">
+                    <li>Ensalada rusa.</li>
+                    <img src="assets/img/ensalada.jpg" alt="arroz">
+                </ul>
+            </section>
+            <section id="regalos">
+                <h2>Lista de compras de regalos de navidad</h2>
+                <ul>
+                    <li>Platzi Expert+ para mi y mi mejor amigo.</li>
+                    <img src="assets/img/platzi.png" alt="platzi expert+">
+                    <li>NordVPN para mi</li>
+                    <img src="assets/img/vpn.jpg" alt="vpn">
+                    <li>Sony Wh-1000xm4 para que al mi hermano estudie mejor</li>
+                    <img src="assets/img/audifonos.jpg" alt="audifonos">
+                    <li><a href="https://www.casadellibro.com/ebook-quiet-ebook/9780141970172/2072071" target="_BLANK">Un Libro</a> para mi primo introvertido.</li>
+                    <img src="assets/img/libro.jpg" alt="libro">
+                    <li>Nintendo switch para mi tia.</li>
+                    <img src="assets/img/nintendo.jpg" alt="Nintendo Switch">
+                </ul>
+            </section>
+            <section id="encuenta">
+                <h2>Cosas a tener en cuenta</h2>
+                <ol>
+                    <li>receta de la comida <a href="https://cookpad.com/co/recetas/7160792-t-bone-al-carbon-maiz-con-mantequilla-arroz-con-ajos">aquí.</a></li>
+                    <li>Video de la nintendo switch en 2020 <a href="https://www.youtube.com/watch?v=v5c-50zbdE0&t=2s">Video original.</a></li>
+                    <video src="assets/video/nintendoswitch.mp4" controls preload="auto" poster="assets/img/nintendo.jpg"></video>
+                <ol>
+            </section>
+        </main>
         <footer>
-            <h4><a href="contratar.html">Ir a la siguiente pagina</a></h4>
-            <div class="aviso">
-                <p>Hecha por <a href="https://scidroid.live" target="_BLANK">Scidroid.</a></p>
-            </div>
+            <p>Hecho con &#128154; por <a href="https://scidroid.live/" target="_BLANK">SciDroid</a> con el curso de <a href="https://platzi.com/cursos/html-css/" target="_BLANK">HTML y CSS</a> de Platzi.</p>
         </footer>
     </body>
+
 </html>
