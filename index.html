@@ -62,10 +62,41 @@
                     <video src="assets/video/nintendoswitch.mp4" controls preload="auto" poster="assets/img/nintendo.jpg"></video>
                 <ol>
             </section>
+            <section id="vendedor">
+                <h2>¿Está interesado en venderme alguna de las cosas que quiero?</h2>
+                <form action="">
+                    <label for="Nombre">
+                        <span>¿Como se llama su negocio?</span>
+                        <input type="text" id="nombre" placeholder="Nombre de su negocio." name="negocio" required autocomplete="organization">
+                    </label>
+                    <label for="correo">
+                        <span>¿Cual es su correo de contacto?</span>
+                        <input type="email" id="email" placeholder="Ingrese su correo de contacto" name="correo" required autocomplete="email">
+                    </label>
+                    <label for="articulos">
+                        <span>¿Que artículos vende?</span>
+                        <input id="articulos" type="text" placeholder="Articulos que vende" name="articulos" required>
+                    </label>
+                    <label for="fecha">
+                        <span>¿En que fechas entregas?</span>
+                        <input id="fecha" type="date" name="fecha" placeholder="Fecha de entrega." name="fecha" required>
+                    </label>
+                    <label for="inventario">
+                        <span>¿De que producto tienes mas inventario?</span>
+                        <select name="inventario" id="inventario">
+                            <option value="Nintendo Switch">nintendo switch</option>
+                            <option value="Ensalada Rusa">Ensalada Rusa</option>
+                            <option value="platzi">Platzi</option>
+                        </select>
+                    </label>
+                    <label for="enviar">
+                        <input id="enviar" type="submit">
+                    </label>
+                </form>
+            </section>
         </main>
         <footer>
-            <p>Hecho con &#128154; por <a href="https://scidroid.live/" target="_BLANK">SciDroid</a> con el curso de <a href="https://platzi.com/cursos/html-css/" target="_BLANK">HTML y CSS</a> de Platzi.</p>
+            <p>Hecho con 💚 por <a href="https://scidroid.live/" target="_BLANK">SciDroid</a> con el curso de <a href="https://platzi.com/cursos/html-css/" target="_BLANK">HTML y CSS</a> de Platzi.</p>
         </footer>
     </body>
-
 </html>
